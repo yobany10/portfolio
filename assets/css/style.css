@@ -1,3 +1,45 @@
 body {
-    background-color: rgb(23, 34, 51);
+    background: #26313D;
+    background-size: cover;
+}
+.navContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.navbar {
+    background-color: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: acumin-pro,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.navbar a:hover {
+    transform: translateY(1px);
+    color: #F15A24;
+  }
+
+.navbar a.active {
+    color: #F15A24;
+  }
+
+.homeHeader {
+    height: 200px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    background: none;
 }
