@@ -1,45 +1,83 @@
 body {
-    background: #26313D;
-    background-size: cover;
+  background-color: #EAE7DC;
+  background-size: cover;
+  font-family: 'Montserrat', sans-serif;
 }
-.navContainer {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #8E8D8A;
+  font-size: 3rem;
+  color: #fff;
+  box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
+  height: 100%;
+  width: 100%;
+  border-radius: 4px;
+  transition: all 500ms;
+  overflow: hidden;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
+
+.card:hover {
+  box-shadow: rgba(3, 8, 20, 0.1) 0px 0.35rem 1.175rem, rgba(2, 8, 20, 0.1) 0px 0.175rem 0.5rem;
+  transform: translateY(-3px) scale(1.1);
+}
+
+/* NAVBAR */
 .navbar {
-    background-color: none;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
+  background-color: #EAE7DC!important;
+  /* border-bottom: #E98074 solid 4px; */
+  margin: auto;
 }
 
-.navbar a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 20px;
-    font-family: acumin-pro,sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
+#navDropdown {
+  position: static;
+}
 
-.navbar a:hover {
-    transform: translateY(1px);
-    color: #F15A24;
-  }
+#navDropdownMenu {
+  width: 100%;
+}
 
-.navbar a.active {
-    color: #F15A24;
-  }
+.navbar-toggler {
+  border: none;
+}
 
-.homeHeader {
-    height: 200px;
-    padding: 10px;
-    margin: auto;
-    margin-top: 20px;
-    text-align: center;
-    background: none;
+.navbar-toggler:focus {
+  outline: none;
+}
+
+/* INTRO DIV */
+#intro-div {
+  height: 80vh;
+  text-align: center;
+}
+
+/* SKILLS GRID */
+.skills-grid {
+  display: grid;
+  gap: 1rem;
+
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+@media screen and (max-width: 1440px) {
+
+}
+
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 840px) {
+
+}
+
+@media screen and (max-width: 550px) {
+
 }
