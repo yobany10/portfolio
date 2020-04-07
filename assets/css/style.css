@@ -4,7 +4,7 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-.card {
+.skill-card {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -25,7 +25,7 @@ body {
   background-repeat: no-repeat;
 }
 
-.card:hover {
+.skill-card:hover {
   background-color: #E98074;
   box-shadow: rgba(3, 8, 20, 0.1) 0px 0.35rem 1.175rem, rgba(2, 8, 20, 0.1) 0px 0.175rem 0.5rem;
   transform: translateY(-3px) scale(1.05);
@@ -34,9 +34,9 @@ body {
 /* NAVBAR */
 .navbar {
   background-color: #EAE7DC!important;
-  /* border-bottom: #E98074 solid 4px; */
+  border-bottom: #E98074 solid 4px;
   margin: auto;
-  box-shadow: rgba(3, 8, 20, 0.1) 0px 0.35rem 1.175rem, rgba(2, 8, 20, 0.1) 0px 0.175rem 0.5rem;
+  box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
 
 }
 
@@ -60,9 +60,15 @@ body {
 #intro-div {
   height: 80vh;
   text-align: center;
+  margin-top: 80px;
+  color: #8E8D8A;
 }
 
 /* SKILLS GRID */
+#skills-title {
+  text-align: center;
+  color: #8E8D8A;
+}
 .skills-grid {
   display: grid;
   gap: 1rem;
@@ -74,6 +80,21 @@ body {
 
 .skill-png {
   max-height: 50px;
+}
+
+/* PROJECTS GRID */
+.projects-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  max-width: 80vw;
+  margin: auto;
+  padding: 0 0 10vh 0;
+}
+
+.project-card {
+  background: #8E8D8A;
+  color: white;
 }
 @media screen and (max-width: 1440px) {
 
