@@ -66,8 +66,12 @@ body {
 
 /* SKILLS GRID */
 #skills-title {
+  display: grid;
+  justify-content: center;
   text-align: center;
   color: #8E8D8A;
+  max-width: 80vw;
+  margin: auto;
 }
 .skills-grid {
   display: grid;
@@ -95,6 +99,10 @@ body {
 .project-card {
   background: #8E8D8A;
   color: white;
+}
+
+.proj-card-footer {
+  background-color: #E98074;
 }
 @media screen and (max-width: 1440px) {
 
