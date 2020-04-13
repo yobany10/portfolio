@@ -114,10 +114,14 @@ body {
 }
 
 #contact-form {
-  background-color: #D8C3A5;
+  background-color: rgb(204, 202, 194);
   padding: 5vw 5vw 5vw 5vw;
   border-radius: 5px;
   color: white;
+}
+
+.btn-submit {
+  background-color: #E98074;
 }
 @media screen and (max-width: 1440px) {
 

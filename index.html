@@ -170,7 +170,7 @@
           <h5><strong>Contact me</strong></h5>
           <p>Let's get in touch!</p>
         </section>
-          <form id="contact-form" method="post" action="../php/contact.php" role="form">
+          <form id="contact-form" method="POST" action="#" role="form">
             
             <div class="messages"></div>
 
@@ -184,7 +184,7 @@
               </div>
               <div class="form-group col-md-6">
                 <label for="form_lastname">Last Name</label>
-                <input type="text" class="form-control" id="form_lastname" name="surname" placeholder="Doe" required="required" data-error="Last name is required.">
+                <input type="text" class="form-control" id="form_lastname" name="last name" placeholder="Doe" required="required" data-error="Last name is required.">
                 <div class="help-block with-errors"></div>
               </div>
               <div class="form-group col-md-12">
@@ -195,10 +195,10 @@
             </div>
             <div class="form-group">
                 <label for="form_message">Message</label>
-                <textarea class="form-control" id="form_message" rows="3" placeholder="Type your message here" required="required" data-error="Message is required."></textarea>
+                <textarea name="message" class="form-control" id="form_message" rows="3" placeholder="Type your message here" required="required" data-error="Message is required."></textarea>
                 <div class="help-block with-errors"></div>
               </div>
-            <input type="submit" class="btn btn-secondary btn-send" value="Send message">
+            <input type="submit" class="btn btn-submit btn-send" value="Send message">
             </div>
           </form>
       </section>
