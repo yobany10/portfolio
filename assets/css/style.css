@@ -104,6 +104,21 @@ body {
 .proj-card-footer {
   background-color: #E98074;
 }
+
+/* CONTACT GRID */
+.contact-grid {
+  display: grid;
+  max-width: 90vw;
+  margin: auto;
+  padding: 0 0 10vh 0;
+}
+
+#contact-form {
+  background-color: #D8C3A5;
+  padding: 5vw 5vw 5vw 5vw;
+  border-radius: 5px;
+  color: white;
+}
 @media screen and (max-width: 1440px) {
 
 }
