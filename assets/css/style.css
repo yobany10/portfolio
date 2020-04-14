@@ -123,6 +123,15 @@ body {
 .btn-submit {
   background-color: #E98074;
 }
+
+/* FOOTER */
+.footer-grid {
+  display: grid;
+  background-color: rgb(204, 202, 194);
+  color: white;
+  padding: 1rem 0 1rem 0;
+  text-align: center;
+}
 @media screen and (max-width: 1440px) {
 
 }
