@@ -65,7 +65,7 @@ body {
 }
 
 /* SKILLS GRID */
-#skills-title {
+.skills-title {
   display: grid;
   justify-content: center;
   text-align: center;
