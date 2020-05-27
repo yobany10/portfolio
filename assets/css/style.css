@@ -1,5 +1,5 @@
 body {
-  background-color: #EAE7DC;
+  background-color: #2A3640;
   background-size: cover;
   font-family: 'Montserrat', sans-serif;
   scroll-behavior: smooth;
@@ -10,7 +10,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #8E8D8A;
+  text-align: center;
+  background: #536473;
   font-size: 3rem;
   color: #fff;
   box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
@@ -19,26 +20,29 @@ body {
   border-radius: 4px;
   transition: all 100ms;
   overflow: hidden;
-  padding: 2px 0 2px 0;
-
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  padding: 0.8rem 0 0 0;
 }
 
 .skill-card:hover {
-  background-color: #E98074;
+  background-color: #F25C05;
   box-shadow: rgba(3, 8, 20, 0.1) 0px 0.35rem 1.175rem, rgba(2, 8, 20, 0.1) 0px 0.175rem 0.5rem;
   transform: translateY(-3px) scale(1.05);
 }
 
 /* NAVBAR */
 .navbar {
-  background-color: #EAE7DC!important;
-  border-bottom: #E98074 solid 4px;
+  background-color: #2A3640!important;
+  border-bottom: #95B3BF solid 4px;
   margin: auto;
   box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
+}
 
+.navbar a {
+  color: white !important;
+}
+
+.navbar a:hover {
+  color: #95B3BF !important;
 }
 
 #navDropdown {
@@ -71,6 +75,11 @@ body {
   max-width: 80vw;
   margin: auto;
 }
+
+.div-title-head {
+  color: #95B3BF;
+}
+
 .skills-grid {
   display: grid;
   gap: 1rem;
@@ -78,6 +87,11 @@ body {
   max-width: 80vw;
   margin: auto;
   padding: 0 0 10vh 0;
+}
+
+.skills-grid p {
+  font-size: 20px;
+  padding: 0.5rem 0.5rem 0 0.5rem;
 }
 
 .skill-png {
@@ -95,12 +109,13 @@ body {
 }
 
 .project-card {
-  background: #8E8D8A;
+  background: #536473;
   color: white;
+  border: none;
 }
 
 .proj-card-footer {
-  background-color: #E98074;
+  background-color: #95B3BF;
 }
 
 /* CONTACT GRID */
@@ -112,24 +127,25 @@ body {
 }
 
 #contact-form {
-  background-color: rgb(204, 202, 194);
+  background-color: #536473;
   padding: 5vw 5vw 5vw 5vw;
   border-radius: 5px;
   color: white;
 }
 
 .btn-submit {
-  background-color: #E98074;
+  background-color: #95B3BF;
 }
 
 /* FOOTER */
 .footer-grid {
   display: grid;
-  background-color: rgb(204, 202, 194);
+  background-color: #2A3640;
   color: white;
   padding: 1rem 0 1rem 0;
   text-align: center;
 }
+
 @media screen and (max-width: 1440px) {
 
 }
