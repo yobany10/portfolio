@@ -5,7 +5,7 @@ let navSkills = document.getElementById("nav-skills")
 let navProjects = document.getElementById("nav-projects")
 let navContact = document.getElementById("nav-contact")
 
-let scrollHome = document.getElementById("intro-div")
+let scrollHome = document.getElementById("intro-title")
 let scrollSkills = document.getElementById("skills-title")
 let scrollProjects = document.getElementById("projects-title")
 let scrollContact = document.getElementById("contact-title")
